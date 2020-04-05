@@ -119,7 +119,7 @@ if __name__ == '__main__':
             symb = max(symbs.items(), key = lambda x: x[1])[0]
             rez += symb
         if save_parts > 0:
-            img0.save(save_dir + basename + '_' + symb + '.bmp')
+            img2.save(save_dir + basename + '_' + symb + '.bmp')
     if mode == 'file':
         fout = open(out_name, 'w')
         fout.write(rez)
